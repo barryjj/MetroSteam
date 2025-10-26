@@ -1,7 +1,9 @@
 # Metro skin for Steam
-
 This skin for the new UI framework was created after Valve made it problematic to revert to the old-style windows and subsequently removed support for user-made themes.
-My quest was to make the windows look as close as possible to those of [the original Metro skin](https://steamcommunity.com/groups/metroforsteam).
+My quest was to make the windows look as close as possible to those of [the original Metro skin](https://steamcommunity.com/groups/metroforsteam) inspired by Windows 8 and 10.
+<p align="center">
+  <img src="preview.png" alt="Skin preview screenshot" width="500">
+</p>
 
 ## Applying the skin
 ### Using SFP
@@ -15,7 +17,7 @@ My quest was to make the windows look as close as possible to those of [the orig
 1. [Download the skin archive](/../../archive/refs/heads/master.zip).
 1. Extract the archive to **Steam\steamui\skins** (create the skins folder if doing this for the first time).
    - If you like, rename the MetroSteam-master folder to `Metro by Rose`.
-1. [Download the latest version of SFP](https://github.com/PhantomGamers/SFP/releases) to modify Steam.
+1. [Download the latest stable version of SFP](https://github.com/PhantomGamers/SFP/releases) to modify Steam.
 1. Run the tool and select the skin under *Steam skin* in its settings.
 1. In SFP, click on Start Injection unless already done.
 
@@ -38,7 +40,7 @@ Installing manually is also an option:
 1. Launch Steam and select the skin in Settings->Interface.
 
 ## Credits
-* [Dom](https://github.com/minischetti) for creating the original Metro skin, which has been the reference point for many parts of my remake.
+* [Dom](https://github.com/auxvirtua) for creating the original Metro skin, which has been the reference point for many parts of my remake.
 * [PhantomGamers](https://github.com/PhantomGamers) for creating the first tool to allow skinning, SFP.
 * [RedSigma](https://github.com/redsigma) for creating a custom skin for the chat and friends windows, which I used as an early template.
 * [Sims](https://github.com/suchmememanyskill) for ideas and code examples related to animating the Steam menu, to the dynamic placement of the repositioned bottom bar buttons, and to the context menu borders.

@@ -178,7 +178,8 @@
 }
 
 .ExpandPlusMinus {
-    margin-top: 0 !important;
+    margin-top: auto !important;
+	margin-bottom: auto !important;
 	font-size: 0;
 	line-height: 16px;
 }
@@ -1850,7 +1851,7 @@ button.DialogButton.Primary:hover {
 
 /*new emoticon icon color*/
 /* [class*="emoticon_NewEmoticonIndicator_"] */
-._3O2gRFANfKKg3mYONXvlcL {
+._5BtHMjT9usALaSWHGugdV {
     background: none !important;
     top: 98% !important;
     right: 0% !important;
@@ -1858,11 +1859,11 @@ button.DialogButton.Primary:hover {
 }
 
     /* [class*="emoticon_NewEmoticonIndicator_"] [class*="emoticon_NewEmoticonCircle_"] */
-._3O2gRFANfKKg3mYONXvlcL .JRMFrrhowzfdWhJcPIMB1 {
-        width: 100% !important;
-        height: 1px !important;
-        background-color: rgb(var(--focus)) !important;
-    }
+._5BtHMjT9usALaSWHGugdV .u5Kx6dkUppvb-1qV4IIuy {
+    width: 100% !important;
+    height: 1px !important;
+    background-color: rgb(var(--focus)) !important;
+}
 
 /* [class*="steamavatar_avatarFrame_"] */
 .X_mJE4BYV5StDPwZhSiAu {
@@ -2819,7 +2820,7 @@ img.AB86vEzEKPL0y5fK_m4pT {
 /*emoticon and reactions code popup*/
 /* [class*="emoticon_EmoticonHover_"],
 [class*="reactions_ReactionHover_"] */
-._36iQ4zr5AiMWVmmiHee0mN, .RQYkyiM4TDn3t-i5FmXKL {
+.W_hPU2JmhTx3oUqDN9ADo, .RQYkyiM4TDn3t-i5FmXKL {
     background-color: rgb(var(--clientBG));
     border: 1px solid rgb(var(--frameBorder));
     margin: 0 4px;
@@ -4680,4 +4681,32 @@ span.mention {
 
 .currentUserContainer ._4ZTzGZ5TTgFyfw1DcXLXS._1oYSXGjBe7QctQ1ikLpCMm .nOdcT-MoOaXGePXLyPe0H {
     font-size: 12px !important;
+}
+
+span.mentionSearchMatch {
+    color: rgb(var(--white50));
+}
+/*A workaround because Valve uses mentionDialog for its slash command suggestions as well, and we don't want that to be padded */
+._1QU3cLCGXCmYTUvjYiqqz6 .mentionAvatar {
+	display: none;
+}
+
+.mutualFriendTitle {
+        color: rgb(var(--white))
+}
+
+._3AWk3BnPfsx8KJEGVge4Cr {
+    background-color: transparent;
+}
+
+.mutualFriendLabel {
+    color: rgb(var(--white75));
+}
+
+.DialogProgressBar_Value {
+    background: rgb(var(--focus));
+}
+
+.DialogProgressBar_ProgressBarContainer {
+    border: none;
 }
